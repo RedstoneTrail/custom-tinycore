@@ -39,6 +39,7 @@ do
 	echo " "
 	echo enter the name of the option you want to use from the list below
 	echo haxor: matrix -\> progress bars -\> reboot
+	echo rick : rickroll -\> reboot
 	/usr/bin/env echo -ne "\n\n> " && read SELECTION
 
 	# read SELECTION
