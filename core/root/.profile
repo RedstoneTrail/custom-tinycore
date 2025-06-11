@@ -52,7 +52,8 @@ done
 
 if [ $SELECTION == "haxor" ]
 then
-	/zig-matrix
+	/zig-matrix -m "user input required, press any key..."
+	clear
 	/zig-haxor-screen
 	reboot
 fi
@@ -62,7 +63,8 @@ then
 	alsactl init
 	amixer set Master unmute
 	amixer set Master 100%
-	/zig-matrix
+	/zig-matrix -m "user input required, press any key..."
+	clear
 	/rickroll
 	reboot
 fi
